@@ -9,7 +9,13 @@ Module VariableExample
 
     Sub Main()
 
+        Dim myNewVariable As String
 
+        myNewVariable = "hello, world!"
+
+        myNewVariable = "Good bye!"
+
+        myNewVariable &= "Cruel World"
 
 
 
