@@ -9,7 +9,7 @@ Module VariableExample
 
     Sub Main()
 
-        Dim myNewVariable As String
+        Dim myNewVariable As String     'Dim is used to declare a variable. The word after Dim is the variable name.
 
         myNewVariable = "hello, world!"
 
