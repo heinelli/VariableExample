@@ -14,6 +14,7 @@ Module VariableExample
         Dim secondNumber As Integer
         Dim result As Double
         Dim test As Boolean
+        Dim userResponse As String
 
         Const DISCOUNT As Decimal = 0.01@   'Uppercase is used to signify a constant value.
 
@@ -26,7 +27,13 @@ Module VariableExample
         secondNumber = 6
         result = firstNumber / secondNumber
 
-        Console.Read()
+
+        Console.WriteLine("Enter a number.")
+
+
+        userResponse = Console.ReadLine()
+        Console.WriteLine(CInt(userResponse) + 5)
+        Console.Beep()
     End Sub
 
 End Module
